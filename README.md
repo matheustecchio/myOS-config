@@ -1,3 +1,3 @@
-# Useful
+# My GitHub Templates
 
-This is a repository about useful files and commands that I use on my computer.
+THis repository contains my GitHub Templates!
