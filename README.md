@@ -5,6 +5,14 @@
 2. Set `Dark Mode` and other visual system settings.
 3. Unistall useless applications.
 
+### Packman
+1. Install `packman`:
+
+```
+$ sudo zypper ar -cfp 90 https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/ packman
+$ sudo zypper dup --from packman --allow-vendor-change
+```
+
 ### Bluetooth
 1. Find your device:
 ```
