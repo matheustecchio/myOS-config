@@ -1,6 +1,6 @@
 ## How I config my personal computer
 
-### OpenSUSE
+### Operational System
 1. Set `Dark Mode`.
 
 ### Bluetooth
