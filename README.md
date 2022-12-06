@@ -1,8 +1,9 @@
 ## How I config my personal computer
 
 ### Operational System
-1. Set `Dark Mode` and another visual settings.
-2. Unistall useless applications.
+1. Sync OS with cloud.
+2. Set `Dark Mode` and other visual system settings.
+3. Unistall useless applications.
 
 ### Bluetooth
 1. Find your device:
