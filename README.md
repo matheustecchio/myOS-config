@@ -1,7 +1,8 @@
 ## How I config my personal computer
 
 ### Operational System
-1. Set `Dark Mode`.
+1. Set `Dark Mode` and visual settings.
+2. Unistall useless applications.
 
 ### Bluetooth
 - Find your device:
