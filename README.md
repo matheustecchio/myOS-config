@@ -33,4 +33,3 @@ $ bluetoothctl trust [MAC Adress]
 ### Gnome Extensions
 1. [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
 2. [Vitals](https://extensions.gnome.org/extension/1460/vitals/)
-3. [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
