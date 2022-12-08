@@ -1,35 +1,62 @@
-## How I config my personal computer
+# How I config my personal computer
 
-### Operational System
-1. Sync OS with cloud.
-2. Set `Dark Mode` and other visual system settings.
-3. Unistall useless applications.
+## Operational System
+- Sync OS with cloud.
+- Set `Dark Mode` and other visual system settings.
+- Unistall useless applications.
 
-### Packman
-1. Install `packman`:
+## Packman
+- Install `packman`:
 
 ```
 $ sudo zypper ar -cfp 90 https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/ packman
 $ sudo zypper dup --from packman --allow-vendor-change
 ```
 
-### Bluetooth
-1. Find your device:
+## Bluetooth
+- Find your device:
 ```
 $ bluetoothctl scan on
 ```
-2. Pair/connect/trust your device:
+- Pair/connect/trust your device:
 ```
 $ bluetoothctl pair [MAC Adress]
 $ bluetoothctl connect [MAC Adress]
 $ bluetoothctl trust [MAC Adress]
 ```
 
-### Firefox
-1. Run and Sync `Firefox`.
-2. Set `DuckDuckGo` as your default search engine.
-3. Log into the main sites .
+## Firefox
+- Run and Sync `Firefox`.
+- Set `DuckDuckGo` as your default search engine.
+- Log into the main sites .
 
-### Gnome Extensions
-1. [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
-2. [Vitals](https://extensions.gnome.org/extension/1460/vitals/)
+## GNOME Extensions
+- Install Gnome Extensions:
+```
+$ sudo zypper intall gnome-shell-extensions
+```
+### Extensions
+- [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
+- [Vitals](https://extensions.gnome.org/extension/1460/vitals/)
+
+## GNOME Look
+- Install Gnome Tweaks:
+```
+$ sudo zypper intall gnome-tweaks
+```
+### Cursors (Fix crash)
+- [Nordic cursors](https://www.gnome-look.org/p/1662218/)
+### Icons (Fix bug on YAST)
+- [Papirus](https://www.gnome-look.org/p/1166289) | Blue Grey
+- [Nordic Folders](https://www.gnome-look.org/p/1733012/)
+### Shell
+- [Flat Remix](https://www.gnome-look.org/p/1013030) | Grey
+### GTK Themes (Fix bug on Nautilus)
+- [Nordic](https://www.gnome-look.org/p/1267246)
+- [Orchis](https://www.gnome-look.org/p/1357889) | Grey
+
+### Login Screen (Test)
+- [Nordic sddm](https://www.gnome-look.org/p/1366843)
+
+### Global Theme (Test)
+- [Nordic KDE](https://www.pling.com/p/1327093/)
