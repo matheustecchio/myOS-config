@@ -57,6 +57,3 @@ $ sudo zypper intall gnome-tweaks
 
 ### Login Screen (Test)
 - [Nordic sddm](https://www.gnome-look.org/p/1366843)
-
-### Global Theme (Test)
-- [Nordic KDE](https://www.pling.com/p/1327093/)
