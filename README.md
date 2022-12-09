@@ -50,6 +50,3 @@ $ sudo zypper intall gnome-tweaks
 - [Flat Remix](https://www.gnome-look.org/p/1013030) | Grey Dark
 ### GTK Themes (Fix bug on Nautilus)
 - [Orchis](https://www.gnome-look.org/p/1357889) | Grey
-
-### Login Screen (Test)
-- [Nordic sddm](https://www.gnome-look.org/p/1366843)
