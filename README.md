@@ -1,4 +1,4 @@
-# How I config my personal computer
+# openSUSE Configuration
 
 ## Operational System
 - Sync OS with cloud.
