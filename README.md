@@ -35,6 +35,7 @@ $ bluetoothctl trust [MAC Adress]
 ```
 $ sudo zypper intall gnome-shell-extensions
 ```
+
 ### Extensions
 - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
 - [Vitals](https://extensions.gnome.org/extension/1460/vitals/)
@@ -44,6 +45,12 @@ $ sudo zypper intall gnome-shell-extensions
 ```
 $ sudo zypper intall gnome-tweaks
 ```
+
+- Move the folders to `/usr/share/icons` and `/usr/share/themes` with the terminal:
+```
+$ sudo cp -r [target] [local]
+```
+
 ### Icons (Fix bug on YAST)
 - [Papirus](https://www.gnome-look.org/p/1166289) | Bluegreen
 ### Shell
