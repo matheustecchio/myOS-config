@@ -48,5 +48,5 @@ $ sudo zypper intall gnome-tweaks
 - [Papirus](https://www.gnome-look.org/p/1166289) | Bluegreen
 ### Shell
 - [Flat Remix](https://www.gnome-look.org/p/1013030) | Grey Dark
-### GTK Themes (Fix bug on Nautilus)
+### GTK Themes
 - [Orchis](https://www.gnome-look.org/p/1357889) | Grey
