@@ -58,12 +58,12 @@ $ sudo cp -r [target] [local]
 - [Orchis](https://www.gnome-look.org/p/1357889) | Grey
 
 ## Developer Packages
-- Git
+### Git
 ```
 $ sudo zypper install git
 ```
 
-- Eclipse IDE
+### Eclipse IDE
 
 [Download](https://eclipseide.org/)
 ```
