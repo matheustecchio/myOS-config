@@ -61,6 +61,7 @@ $ sudo cp -r [target] [local]
 ### Git
 ```
 $ sudo zypper install git
+$ ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
 ### Eclipse IDE
