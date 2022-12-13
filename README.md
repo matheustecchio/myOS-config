@@ -31,7 +31,7 @@ $ bluetoothctl trust [MAC Adress]
 - Log into the main sites .
 
 ## GNOME Extensions
-- Install Gnome Extensions:
+Install Gnome Extensions:
 ```
 $ sudo zypper intall gnome-shell-extensions
 ```
@@ -42,17 +42,17 @@ $ sudo zypper intall gnome-shell-extensions
 - [OpenWeather](https://extensions.gnome.org/extension/750/openweather/)
 
 ## GNOME Look
-- Install Gnome Tweaks:
+Install Gnome Tweaks:
 ```
 $ sudo zypper intall gnome-tweaks
 ```
 
-- Move the folders to `/usr/share/icons` and `/usr/share/themes` with the terminal:
+Move the folders to `/usr/share/icons` and `/usr/share/themes` with the terminal:
 ```
 $ sudo cp -r [target] [local]
 ```
 
-### Icons (Fix bug on YAST)
+### Icons
 - [Papirus](https://www.gnome-look.org/p/1166289) | Bluegreen
 ### GTK Themes
 - [Orchis](https://www.gnome-look.org/p/1357889) | Grey
