@@ -62,7 +62,11 @@ $ sudo cp -r [target] [local]
 ```
 $ sudo zypper install git
 $ ssh-keygen -t ed25519 -C "your_email@example.com"
+$ cd .ssh
+$ ls
+$ cat [SHH-file-name]
 ```
+Copy the Key and create a SSH Key on GitHub.
 
 ### Eclipse IDE
 
