@@ -54,7 +54,19 @@ $ sudo cp -r [target] [local]
 
 ### Icons (Fix bug on YAST)
 - [Papirus](https://www.gnome-look.org/p/1166289) | Bluegreen
-### Shell
-- [Flat Remix](https://www.gnome-look.org/p/1013030) | Grey Dark
 ### GTK Themes
 - [Orchis](https://www.gnome-look.org/p/1357889) | Grey
+
+## Developer Packages
+- Git
+```
+$ sudo zypper install git
+```
+
+- Eclipse IDE
+
+[Download](https://eclipseide.org/)
+```
+$ sudo tar -xf [folder-name]
+$ ./[install-file-name]
+```
