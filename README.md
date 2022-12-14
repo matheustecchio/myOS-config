@@ -66,7 +66,7 @@ $ git config --global user.email [EMAIL]
 ```
 **Create SSH key:**
 ```
-$ ssh-keygen -t ed25519 -C "your_email@example.com"
+$ ssh-keygen -t ed25519 -C "[your_email@example.com]"
 $ cd .ssh
 $ ls
 $ cat [SHH-file-name]
@@ -74,6 +74,11 @@ $ cat [SHH-file-name]
 **Copy the Key and create a SSH Key on GitHub.**
 
 Create GPG key:
+```
+$ gpg --full-generate-key
+$ gpg --list-keys
+$ gpg --armor --export [GPG-key-pub]
+```
 
 ❎
 ❎
