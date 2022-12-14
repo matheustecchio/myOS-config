@@ -80,10 +80,6 @@ $ gpg --list-keys
 $ gpg --armor --export [GPG-key-pub]
 ```
 
-❎
-❎
-❎
-
 ## Eclipse IDE
 
 [Download](https://eclipseide.org/)
