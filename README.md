@@ -72,8 +72,9 @@ $ cd .ssh
 $ ls
 $ cat [SHH-file-name]
 ```
-Create GPG key:
 Copy the Key and create a SSH Key on GitHub.
+
+Create GPG key:
 
 ## Eclipse IDE
 
