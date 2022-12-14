@@ -15,12 +15,12 @@ $ sudo zypper intall gnome-shell-extensions
 - [OpenWeather](https://extensions.gnome.org/extension/750/openweather/)
 
 # GNOME Look
-Install Gnome Tweaks:
+**Install Gnome Tweaks:**
 ```
 $ sudo zypper intall gnome-tweaks
 ```
 
-Move the folders to `/usr/share/icons` and `/usr/share/themes` with the terminal:
+**Move the folders to `/usr/share/icons` and `/usr/share/themes` with the terminal:**
 ```
 $ sudo cp -r [target] [local]
 ```
@@ -31,11 +31,11 @@ $ sudo cp -r [target] [local]
 - [Orchis](https://www.gnome-look.org/p/1357889) | Grey
 
 # Bluetooth
-- Find your device:
+**Find your device:**
 ```
 $ bluetoothctl scan on
 ```
-- Pair/connect/trust your device:
+**Pair/connect/trust your device:**
 ```
 $ bluetoothctl pair [MAC Adress]
 $ bluetoothctl connect [MAC Adress]
@@ -48,8 +48,7 @@ $ bluetoothctl trust [MAC Adress]
 - Log into the main sites .
 
 # Packman
-- Install `packman`:
-
+**Install `packman`:**
 ```
 $ sudo zypper ar -cfp 90 https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/ packman
 $ sudo zypper dup --from packman --allow-vendor-change
@@ -60,21 +59,25 @@ $ sudo zypper dup --from packman --allow-vendor-change
 ```
 $ sudo zypper install git
 ```
-Innitial configuration:
+**Innitial configuration:**
 ```
 $ git config --global user.name "[NAME]"
 $ git config --global user.email [EMAIL]
 ```
-Create SSH key:
+**Create SSH key:**
 ```
 $ ssh-keygen -t ed25519 -C "your_email@example.com"
 $ cd .ssh
 $ ls
 $ cat [SHH-file-name]
 ```
-Copy the Key and create a SSH Key on GitHub.
+**Copy the Key and create a SSH Key on GitHub.**
 
 Create GPG key:
+
+❎
+❎
+❎
 
 ## Eclipse IDE
 
