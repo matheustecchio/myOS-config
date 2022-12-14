@@ -5,7 +5,7 @@
 - Set `Dark Mode` and other visual system settings.
 - Unistall useless applications.
 
-## Packman
+# Packman
 - Install `packman`:
 
 ```
@@ -13,7 +13,7 @@ $ sudo zypper ar -cfp 90 https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUS
 $ sudo zypper dup --from packman --allow-vendor-change
 ```
 
-## Bluetooth
+# Bluetooth
 - Find your device:
 ```
 $ bluetoothctl scan on
@@ -25,12 +25,12 @@ $ bluetoothctl connect [MAC Adress]
 $ bluetoothctl trust [MAC Adress]
 ```
 
-## Firefox
+# Firefox
 - Run and Sync `Firefox`.
 - Set `DuckDuckGo` as your default search engine.
 - Log into the main sites .
 
-## GNOME Extensions
+# GNOME Extensions
 Install Gnome Extensions:
 ```
 $ sudo zypper intall gnome-shell-extensions
@@ -41,7 +41,7 @@ $ sudo zypper intall gnome-shell-extensions
 - [Vitals](https://extensions.gnome.org/extension/1460/vitals/)
 - [OpenWeather](https://extensions.gnome.org/extension/750/openweather/)
 
-## GNOME Look
+# GNOME Look
 Install Gnome Tweaks:
 ```
 $ sudo zypper intall gnome-tweaks
@@ -57,8 +57,8 @@ $ sudo cp -r [target] [local]
 ### GTK Themes
 - [Orchis](https://www.gnome-look.org/p/1357889) | Grey
 
-## Developer Packages
-### Git
+# Developer Packages
+## Git
 ```
 $ sudo zypper install git
 ```
@@ -72,7 +72,7 @@ $ cat [SHH-file-name]
 Create GPG key:
 Copy the Key and create a SSH Key on GitHub.
 
-### Eclipse IDE
+## Eclipse IDE
 
 [Download](https://eclipseide.org/)
 ```
