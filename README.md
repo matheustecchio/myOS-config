@@ -73,13 +73,13 @@ $ cat [SHH-file-name]
 ```
 **Copy the Key and create a SSH Key on GitHub.**
 
-Create GPG key:
+**Create GPG key:**
 ```
 $ gpg --full-generate-key
 $ gpg --list-keys
 $ gpg --armor --export [GPG-key-pub]
 ```
-**Copy the Key and create a GPG Key on GitHub.**
+Copy the Key and create a GPG Key on GitHub.
 
 **Config Git to sign commits and tags:**
 ```
