@@ -71,7 +71,7 @@ $ cd .ssh
 $ ls
 $ cat [SHH-file-name]
 ```
-**Copy the Key and create a SSH Key on GitHub.**
+Copy the Key and create a SSH Key on GitHub.
 
 **Create GPG key:**
 ```
