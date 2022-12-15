@@ -79,6 +79,15 @@ $ gpg --full-generate-key
 $ gpg --list-keys
 $ gpg --armor --export [GPG-key-pub]
 ```
+**Copy the Key and create a GPG Key on GitHub.**
+
+**Config Git to sign commits and tags:**
+```
+$ git config --global commit.gpgsign true
+$ git config --global tag.gpgSign true
+$ git config --global user.signingkey [KEY-ID]
+```
+
 
 ## Eclipse IDE
 
