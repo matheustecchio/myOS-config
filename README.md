@@ -12,7 +12,6 @@ $ sudo zypper intall gnome-shell-extensions
 ### Extensions
 - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
 - [Vitals](https://extensions.gnome.org/extension/1460/vitals/)
-- [OpenWeather](https://extensions.gnome.org/extension/750/openweather/)
 - [Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/)
 
 # GNOME Look
