@@ -13,6 +13,7 @@ $ sudo zypper intall gnome-shell-extensions
 - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
 - [Vitals](https://extensions.gnome.org/extension/1460/vitals/)
 - [OpenWeather](https://extensions.gnome.org/extension/750/openweather/)
+- [Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/)
 
 # GNOME Look
 **Install Gnome Tweaks:**
@@ -27,8 +28,6 @@ $ sudo cp -r [target] [local]
 
 ### Icons
 - [Papirus](https://www.gnome-look.org/p/1166289) | Bluegreen
-### GTK Themes
-- [Orchis](https://www.gnome-look.org/p/1357889) | Grey
 
 # Bluetooth
 **Find your device:**
