@@ -10,8 +10,8 @@ $ sudo zypper intall gnome-shell-extensions
 ```
 
 ### Extensions
-- [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
 - [Vitals](https://extensions.gnome.org/extension/1460/vitals/)
+- [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
 - [Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/)
 
 # GNOME Look
