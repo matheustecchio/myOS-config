@@ -91,11 +91,12 @@ $ git config --global user.signingkey [KEY-ID]
 $ sudo zypper install libXcomposite1 libXi6 libXext6 libXau6 libX11-6 libXrandr2 libXrender1 libXss1 libXtst6 libXdamage1 libXcursor1 libxcb1 libasound2  libX11-xcb1 Mesa-libGL1 Mesa-libEGL1
 $ chmod +x [FILE-NAME].sh
 $ ./[FILE-NAME].sh
+$ conda config --set auto_activate_base False
 ```
 ## Spyder IDE
 ```
 $ conda update anaconda
-
+$ conda install spyder
 ```
 
 ## Eclipse IDE
