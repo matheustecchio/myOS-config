@@ -92,6 +92,7 @@ $ sudo zypper install libXcomposite1 libXi6 libXext6 libXau6 libX11-6 libXrandr2
 $ chmod +x [FILE-NAME].sh
 $ ./[FILE-NAME].sh
 $ conda config --set auto_activate_base False
+$ conda install anaconda-navigator
 ```
 ## Spyder IDE
 ```
