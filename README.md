@@ -85,7 +85,13 @@ $ git config --global commit.gpgsign true
 $ git config --global tag.gpgSign true
 $ git config --global user.signingkey [KEY-ID]
 ```
-
+## Anaconda
+[Download](https://www.anaconda.com/)
+```
+$ sudo zypper install libXcomposite1 libXi6 libXext6 libXau6 libX11-6 libXrandr2 libXrender1 libXss1 libXtst6 libXdamage1 libXcursor1 libxcb1 libasound2  libX11-xcb1 Mesa-libGL1 Mesa-libEGL1
+$ shasum -a 256 [FILE-NAME].sh
+$ bash [FILE-NAME].sh
+```
 
 ## Eclipse IDE
 
