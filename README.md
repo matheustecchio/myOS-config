@@ -22,7 +22,7 @@ $ sudo zypper intall gnome-tweaks
 
 **Move the folders to `/usr/share/icons` and `/usr/share/themes` with the terminal:**
 ```
-$ sudo cp -r [target] [local]
+$ sudo cp -r <target> <local>
 ```
 
 ### Icons
@@ -35,9 +35,9 @@ $ bluetoothctl scan on
 ```
 **Pair/connect/trust your device:**
 ```
-$ bluetoothctl pair [MAC Adress]
-$ bluetoothctl connect [MAC Adress]
-$ bluetoothctl trust [MAC Adress]
+$ bluetoothctl pair <MAC Adress>
+$ bluetoothctl connect <MAC Adress>
+$ bluetoothctl trust <MAC Adress>
 ```
 
 # Firefox
@@ -48,7 +48,7 @@ $ bluetoothctl trust [MAC Adress]
 # Packman
 **Install `packman`:**
 ```
-$ sudo zypper ar -cfp 90 https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/ packman
+$ sudo zypper ar -cfp 90 https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/packman
 $ sudo zypper dup --from packman --allow-vendor-change
 ```
 
@@ -59,15 +59,15 @@ $ sudo zypper install git
 ```
 **Innitial configuration:**
 ```
-$ git config --global user.name "[NAME]"
-$ git config --global user.email [EMAIL]
+$ git config --global user.name "<NAME>"
+$ git config --global user.email <EMAIL>
 ```
 **Create SSH key:**
 ```
-$ ssh-keygen -t ed25519 -C "[your_email@example.com]"
+$ ssh-keygen -t ed25519 -C "<your_email@example.com>"
 $ cd .ssh
 $ ls
-$ cat [SHH-file-name]
+$ cat <SHH-file-name>
 ```
 Copy the Key and create a SSH Key on GitHub.
 
@@ -75,7 +75,7 @@ Copy the Key and create a SSH Key on GitHub.
 ```
 $ gpg --full-generate-key
 $ gpg --list-keys
-$ gpg --armor --export [GPG-key-pub]
+$ gpg --armor --export <GPG-key-pub>
 ```
 Copy the Key and create a GPG Key on GitHub.
 
@@ -83,14 +83,14 @@ Copy the Key and create a GPG Key on GitHub.
 ```
 $ git config --global commit.gpgsign true
 $ git config --global tag.gpgSign true
-$ git config --global user.signingkey [KEY-ID]
+$ git config --global user.signingkey <KEY-ID>
 ```
 ## Anaconda
 [Download](https://www.anaconda.com/)
 ```
 $ sudo zypper install libXcomposite1 libXi6 libXext6 libXau6 libX11-6 libXrandr2 libXrender1 libXss1 libXtst6 libXdamage1 libXcursor1 libxcb1 libasound2  libX11-xcb1 Mesa-libGL1 Mesa-libEGL1
-$ chmod +x [FILE-NAME].sh
-$ ./[FILE-NAME].sh
+$ chmod +x <FILE-NAME>.sh
+$ ./<FILE-NAME>.sh
 $ conda config --set auto_activate_base False
 $ conda install anaconda-navigator
 ```
