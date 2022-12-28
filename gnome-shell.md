@@ -1,5 +1,5 @@
 # GNOME
-- Sync OS with cloud.
+- Sync GNOME with cloud.
 - Set `Dark Mode` and other visual system settings.
 - Unistall useless applications.
 
