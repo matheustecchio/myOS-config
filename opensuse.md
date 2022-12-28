@@ -25,8 +25,7 @@ $ sudo zypper addrepo -cfp 90 'https://ftp.gwdg.de/pub/linux/misc/packman/suse/o
 $ sudo zypper dist-upgrade --from packman --allow-vendor-change
 ```
 
-# Developer Packages
-## Git
+# Git
 ```
 $ sudo zypper install git
 ```
@@ -58,7 +57,7 @@ $ git config --global commit.gpgsign true
 $ git config --global tag.gpgSign true
 $ git config --global user.signingkey <KEY-ID>
 ```
-## Anaconda
+# Anaconda
 [Download](https://www.anaconda.com/)
 ```
 $ sudo zypper install libXcomposite1 libXi6 libXext6 libXau6 libX11-6 libXrandr2 libXrender1 libXss1 libXtst6 libXdamage1 libXcursor1 libxcb1 libasound2  libX11-xcb1 Mesa-libGL1 Mesa-libEGL1
@@ -67,7 +66,7 @@ $ ./<FILE-NAME>.sh
 $ conda config --set auto_activate_base False
 $ conda install anaconda-navigator
 ```
-## Spyder IDE
+# Spyder IDE
 ```
 $ conda update anaconda
 $ conda install spyder
@@ -78,7 +77,7 @@ $ conda install spyder
 $ sudo zypper install code-1.74.2-1671533504.el7.x86_64.rpm
 ```
 
-## Eclipse IDE
+# Eclipse IDE
 
 [Download](https://eclipseide.org/)
 ```
