@@ -72,6 +72,11 @@ $ conda install anaconda-navigator
 $ conda update anaconda
 $ conda install spyder
 ```
+# Visual Studio Code
+[Download](https://code.visualstudio.com/download)
+```
+$ sudo zypper install code-1.74.2-1671533504.el7.x86_64.rpm
+```
 
 ## Eclipse IDE
 
