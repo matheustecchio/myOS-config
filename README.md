@@ -4,5 +4,5 @@
 - [openSUSE](./opensuse.md)
 
 ### Graphic Interface
-- [KDE](./kde-plasma.md)
-- [GNOME](./gnome-shell.md)
+- [KDE](./kde.md)
+- [GNOME](./gnome.md)
