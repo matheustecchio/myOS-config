@@ -1,55 +1,8 @@
-# Developer Packages
-## Git
-```
-$ sudo zypper install git
-```
-**Innitial configuration:**
-```
-$ git config --global user.name "<NAME>"
-$ git config --global user.email <EMAIL>
-```
-**Create SSH key:**
-```
-$ ssh-keygen -t ed25519 -C "<your_email@example.com>"
-$ cd .ssh
-$ ls
-$ cat <SHH-file-name>
-```
-Copy the Key and create a SSH Key on GitHub.
+# My Personal Computer Configuration
 
-**Create GPG key:**
-```
-$ gpg --full-generate-key
-$ gpg --list-keys
-$ gpg --armor --export <GPG-key-pub>
-```
-Copy the Key and create a GPG Key on GitHub.
+### Operational System
+- [openSUSE](./opensuse.md)
 
-**Config Git to sign commits and tags:**
-```
-$ git config --global commit.gpgsign true
-$ git config --global tag.gpgSign true
-$ git config --global user.signingkey <KEY-ID>
-```
-## Anaconda
-[Download](https://www.anaconda.com/)
-```
-$ sudo zypper install libXcomposite1 libXi6 libXext6 libXau6 libX11-6 libXrandr2 libXrender1 libXss1 libXtst6 libXdamage1 libXcursor1 libxcb1 libasound2  libX11-xcb1 Mesa-libGL1 Mesa-libEGL1
-$ chmod +x <FILE-NAME>.sh
-$ ./<FILE-NAME>.sh
-$ conda config --set auto_activate_base False
-$ conda install anaconda-navigator
-```
-## Spyder IDE
-```
-$ conda update anaconda
-$ conda install spyder
-```
-
-## Eclipse IDE
-
-[Download](https://eclipseide.org/)
-```
-$ sudo tar -xf [folder-name]
-$ ./[install-file-name]
-```
+### Graphic Interface
+- [KDE](./kde-plasma.md)
+- [GNOME](./gnome-shell.md)
