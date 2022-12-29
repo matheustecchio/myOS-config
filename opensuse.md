@@ -46,7 +46,7 @@ Copy the Key and create a SSH Key on GitHub.
 **Create GPG key:**
 ```
 $ gpg --full-generate-key
-$ gpg --list-keys
+$ gpg --list-secret-keys --keyid-format=long
 $ gpg --armor --export <GPG-key-pub>
 ```
 Copy the Key and create a GPG Key on GitHub.
